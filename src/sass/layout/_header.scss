@@ -1,9 +1,11 @@
 .header {
-  background-color: $color-primary;
-  overflow: hidden;
+  //background-color: $color-primary;
+ overflow: hidden;
+  background-color: $color-dark-3;
+  background-attachment: fixed;
 
   &__bg {
-    height: 15.6rem;
+    height: 10rem;
     width: auto;
 
     &--desktop {
@@ -11,25 +13,7 @@
     }
 
     &--mobile {
-      display: none;
-    }
-
-    @include respond(desktop-lg) {
-      height: auto;
-      width: 100%;
-    }
-
-    @include respond(mobile) {
-      height: auto;
-      width: 100%;
-
-      &--desktop {
-        display: none;
-      }
-
-      &--mobile {
-        display: block;
-      }
+      display: block;
     }
   }
 }
