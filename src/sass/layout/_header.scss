@@ -1,0 +1,35 @@
+.header {
+  background-color: $color-primary;
+  overflow: hidden;
+
+  &__bg {
+    height: 15.6rem;
+    width: auto;
+
+    &--desktop {
+      display: block;
+    }
+
+    &--mobile {
+      display: none;
+    }
+
+    @include respond(desktop-lg) {
+      height: auto;
+      width: 100%;
+    }
+
+    @include respond(mobile) {
+      height: auto;
+      width: 100%;
+
+      &--desktop {
+        display: none;
+      }
+
+      &--mobile {
+        display: block;
+      }
+    }
+  }
+}
