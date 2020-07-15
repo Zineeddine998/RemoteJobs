@@ -46,9 +46,9 @@ const Main = () => {
     };
 
     const isMatchingFilters = (listing, selections) => {
-       // const combined = [listing.role, listing.level, ...listing.languages, ...listing.tools];
-       // const matching = selections.every(value => combined.indexOf(value) >= 0);
-        //return matching;
+       const combined =  String(listing.labels).split(',');
+       const matching = selections.every(value => combined.indexOf(value) >= 0);
+        return matching;
     };
 
     return (
@@ -69,7 +69,6 @@ const Main = () => {
                     </div>
                 </div>
             )}
-
             {filteredListings.map(listing => {
                 const arr = String(listing.labels).split(',');
                 return (

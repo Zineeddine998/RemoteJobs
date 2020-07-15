@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b85ef635-dcf6-4903-9977-16122de0730d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppllyButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/components/_applybutton.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Listing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Listing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_applybutton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_applybutton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_listing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_listing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1594759519174</updated>
       <workItem from="1594759525105" duration="13110000" />
-      <workItem from="1594830383364" duration="1995000" />
+      <workItem from="1594830383364" duration="2183000" />
+      <workItem from="1594837989149" duration="3677000" />
     </task>
     <servers />
   </component>
