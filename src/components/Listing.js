@@ -1,11 +1,14 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
+import ApplyButton from "./AppllyButton";
 
 
 const Listing = props => (
     <Zoom duration={700}>
         <div className={props.featured ? "listing listing--featured" : "listing"}>
-            { props.company ? <img className="listing__logo" src={'//logo.clearbit.com/' + props.company}style={{borderRadius: "50%",backgroundColor: "white"}}/> : <img className="listing__logo" src="https://www.ewebsolutionskech.com/web/nocache/data/pictures/fr/logo.png" style={{borderRadius: "50%",backgroundColor: "white"}}/>}
+            { props.company ?
+                <img className="listing__logo" src={'//logo.clearbit.com/' + props.company}style={{borderRadius: "50%",backgroundColor: "white"}}/> :
+                <img className="listing__logo" src="https://www.ewebsolutionskech.com/web/nocache/data/pictures/fr/logo.png" style={{borderRadius: "50%",backgroundColor: "white"}}/>}
             <div className="listing__content">
                 <div className="listing__top-row">
                     <h2 className="listing__company">{props.company}</h2>
@@ -22,6 +25,7 @@ const Listing = props => (
             <div className="listing__seperator" />
             <div className="listing__button-row">
                 {props.buttons}
+                <ApplyButton link={props.link}/>
             </div>
         </div>
     </Zoom>

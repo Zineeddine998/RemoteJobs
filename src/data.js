@@ -7280,7 +7280,6 @@ data.map((element,index)  => {
     element.id = i;
     i++;
 }
-
 );
 
 export default data;

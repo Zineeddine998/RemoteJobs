@@ -77,7 +77,7 @@ const Main = () => {
                     key={listing.id}
                     logo={listing.logo}
                     company={listing.company}
-                   // new={listing.new}
+                   link={listing.link}
                    labels={listing.labels}
                     title={listing.position}
                     posted={listing.date}
