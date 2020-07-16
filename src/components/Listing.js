@@ -22,7 +22,6 @@ const Listing = props => (
             <div className="listing__seperator" />
             <div className="listing__button-row">
                 {props.buttons}
-
             </div>
             <div className="listing__seperator" />
             <ApplyButton link={props.link}/>

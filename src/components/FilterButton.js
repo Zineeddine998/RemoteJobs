@@ -10,6 +10,6 @@ const FilterButton = props => (
             </div>
         </div>
     </Zoom>
-)
+);
 
 export default FilterButton;
