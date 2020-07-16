@@ -1,17 +1,10 @@
 import React from "react";
-import { useMediaQuery } from 'react-responsive'
+import '../sass/abstracts/header.css'
 
 
 const Header = () => {
-    const headerStyle = window.innerWidth > 1200 ? {
-        display: "flex",
-        flexDirection:  "column",
-    } : {
-        display: "flex",
-        flexDirection:  "row",
-    };
     return (
-    <header className="header header__bg" style={headerStyle}>
+    <header className="header headers header__bg">
         <h1>The best place to find remote developer jobs</h1>
         <img src='./images/header.png' alt=""/>
     </header>

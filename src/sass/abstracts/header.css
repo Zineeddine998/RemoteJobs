@@ -1,0 +1,31 @@
+ @media only screen and (max-width: 1200px) {
+     .headers {
+         display: flex;
+         flex-direction: column;
+     }
+     .headers img{
+         width: 100%;
+         height: auto;
+     }
+     .headers h1{
+         color: white;
+         padding: 10%;
+     }
+
+ }
+ @media screen and (min-width: 1200px) {
+     .headers {
+         display: flex;
+         flex-direction: row;
+     }
+     .headers img{
+         width: 50%;
+         height: auto;
+     }
+     .headers h1{
+         font-size: 3em;
+         color: white;
+         padding: 10%;
+     }
+
+ }
