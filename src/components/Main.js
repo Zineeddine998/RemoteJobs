@@ -8,7 +8,7 @@ let listings;
 let i = 0;
 const Main = () =>  {
 
-  /*  axios({
+  /* axios({
         method: 'post',
         url: 'https://jsonbox.io/box_f1bd2310a97a7faaa9ea',
         headers: {'content-type' : 'application/json'},
@@ -57,9 +57,6 @@ const Main = () =>  {
                 "link": "https://workew.com/job/customer-operations-manager-kisi/"
             },
             {
-                "position": "MetaLab"
-            },
-            {
                 "position": "Director of Marketing",
                 "date": "06/11/2020",
                 "location": "Anywhere",
@@ -67,9 +64,7 @@ const Main = () =>  {
                 "company": "http://metalab.co/",
                 "link": "https://workew.com/job/director-of-marketing-metalab/"
             },
-            {
-                "position": "flowkey"
-            },
+
             {
                 "position": "Freelance German translator / copywriter ??",
                 "date": "06/11/2020",
@@ -105,9 +100,7 @@ const Main = () =>  {
                 "company": "https://better.com/",
                 "link": "https://workew.com/job/underwriter-better/"
             },
-            {
-                "position": "Outschool"
-            },
+
             {
                 "position": "Class Quality Specialist",
                 "date": "06/08/2020",
@@ -116,9 +109,7 @@ const Main = () =>  {
                 "company": "https://outschool.com/",
                 "link": "https://workew.com/job/class-quality-specialist-outschool/"
             },
-            {
-                "position": "Domestika"
-            },
+
             {
                 "position": "Support Agent (Native English)",
                 "date": "06/08/2020",
@@ -127,9 +118,7 @@ const Main = () =>  {
                 "company": "https://www.domestika.org/",
                 "link": "https://workew.com/job/support-agent-native-english-domestika/"
             },
-            {
-                "position": "ZSA Technology Labs"
-            },
+
             {
                 "position": "A designer with taste and passion",
                 "date": "06/11/2020",
@@ -147,9 +136,7 @@ const Main = () =>  {
                 "company": "https://wpvip.com/",
                 "link": "https://weworkremotely.com/remote-jobs/wordpress-vip-wordpress-support-engineer-1"
             },
-            {
-                "position": "Rhino"
-            },
+
             {
 
                 "position": "Customer Success Manager",
@@ -159,9 +146,7 @@ const Main = () =>  {
                 "company": "https://www.sayrhino.com/",
                 "link": "https://workew.com/job/customer-support-associate-rhino/"
             },
-            {
-                "position": "Flux Academy"
-            },
+
             {
 
                 "position": "Growth Marketer",
@@ -171,9 +156,7 @@ const Main = () =>  {
                 "company": "http://flux-academy.com/",
                 "link": "https://workew.com/job/growth-marketer-flux-academy/"
             },
-            {
-                "position": "Good Money"
-            },
+
             {
 
                 "position": "IT Support Associate",
@@ -183,9 +166,7 @@ const Main = () =>  {
                 "company": "https://goodmoney.com/",
                 "link": "https://workew.com/job/it-support-associate-good-money/"
             },
-            {
-                "position": "Talent Inc"
-            },
+
             {
 
                 "position": "Resume Writer",
@@ -195,9 +176,7 @@ const Main = () =>  {
                 "company": "https://www.talentinc.com/",
                 "link": "https://workew.com/job/resume-writer-talent/"
             },
-            {
-                "position": "Rosetta Stone"
-            },
+
             {
 
                 "position": "Customer Success Specialist",
@@ -207,9 +186,7 @@ const Main = () =>  {
                 "company": "https://www.rosettastone.com/",
                 "link": "https://workew.com/job/customer-success-specialist-rosetta-stone/"
             },
-            {
-                "position": "Empresa En Estonia OÜ"
-            },
+
             {
 
                 "position": "Full Stack Javascript Developer",
@@ -219,9 +196,7 @@ const Main = () =>  {
                 "company": "https://yourcompanyinestonia.com",
                 "link": "https://workew.com/job/full-stack-javascript-developer-empresa-en-estonia/"
             },
-            {
-                "position": "Quest Analytics"
-            },
+
             {
 
                 "position": "Data Scientist",
@@ -231,9 +206,7 @@ const Main = () =>  {
                 "company": "https://questanalytics.com/",
                 "link": "https://workew.com/job/data-scientist-quest-analytics/"
             },
-            {
-                "position": "Dgraph"
-            },
+
             {
 
                 "position": "Technical Writer",
@@ -243,9 +216,7 @@ const Main = () =>  {
                 "company": "https://dgraph.io/",
                 "link": "https://workew.com/job/technical-writer-dgraph/"
             },
-            {
-                "position": "MURAL"
-            },
+
             {
 
                 "position": "Market Development Representative",
@@ -260,8 +231,8 @@ const Main = () =>  {
         console.log(res);
     }).catch(err => {
         console.log(err);
-    });
-*/
+    });*/
+
 
 
 
