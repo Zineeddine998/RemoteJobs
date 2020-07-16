@@ -4,16 +4,33 @@
   background-color: $color-dark-3;
   background-attachment: fixed;
 
+  img{
+    width: 50%;
+    height: auto;
+  }
+  h1{
+    color: white;
+    padding: 10%;
+  }
   &__bg {
-    height: 10rem;
+    height: 50rem;
     width: auto;
+    &--desktop &--tablet &--tablet-land{
+      display: flex;
+      flex-direction: row;
 
-    &--desktop {
-      display: block;
     }
-
     &--mobile {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      img{
+        width: 100%;
+        height: auto;
+      }
+      h1{
+        color: white;
+        padding: 10%;
+      }
     }
   }
 }

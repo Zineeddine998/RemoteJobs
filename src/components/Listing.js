@@ -1,6 +1,7 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 import ApplyButton from "./AppllyButton";
+
 const Listing = props => (
     <Zoom duration={700}>
         <div className={props.featured ? "listing listing--featured" : "listing"}>
@@ -28,7 +29,4 @@ const Listing = props => (
         </div>
     </Zoom>
 );
-
-
-
 export default Listing;
