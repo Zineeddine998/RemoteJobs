@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b85ef635-dcf6-4903-9977-16122de0730d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\acer\Desktop\job-listings-master\demo" />
       <recent name="C:\Users\acer\Desktop\job-listings-master\public" />
       <recent name="C:\Users\acer\Desktop\job-listings-master\public\images" />
       <recent name="C:\Users\acer\Desktop\job-listings-master\src" />
@@ -100,7 +102,8 @@
       <workItem from="1594837989149" duration="21148000" />
       <workItem from="1594893773743" duration="5734000" />
       <workItem from="1594900147772" duration="4889000" />
-      <workItem from="1594906089061" duration="1275000" />
+      <workItem from="1594906089061" duration="1936000" />
+      <workItem from="1595096617329" duration="26000" />
     </task>
     <servers />
   </component>

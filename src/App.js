@@ -17,8 +17,7 @@ const App = () => (
                       <img src="https://gw.alipayobjects.com/zos/rmsportal/XuVpGqBFxXplzvLjJBZB.svg" />
                   ),
                   title: 'Remote Tech Jobs made with ❤️ by Zineeddine998',
-                  url: 'https://yuque.com',
-                  description: '知识创作与分享工具',
+
                   openExternal: true,
               },
           ]}
