@@ -3,25 +3,34 @@ import useDimensions from 'react-use-dimensions';
 import Listing from './Listing';
 import Button from './Button';
 import FilterButton from './FilterButton';
-import { useQuery, useLazyQuery } from '@apollo/client';
+import { useQuery } from '@apollo/client';
 import GET_ALL_POSTS from '../Apollo/sharedQueries';
 
 let listings;
-let i = 0;
 const Main = () => {
 	const [ filteredListings, setFilteredListings ] = useState([]);
 	const [ filters, setFilters ] = useState([]);
+	const { data } = useQuery(GET_ALL_POSTS);
 
-	useEffect(() => {
-		const { loading, error, data } = useQuery(GET_ALL_POSTS);
-		if (!loading && !error) {
-			const listings = data.getAllPosts;
-			listings.map((element, index) => {
-				if (!element.date) listings.splice(index, 1);
-			});
-			setFilteredListings(listings);
-		}
-	}, []);
+	useEffect(
+		() => {
+			if (data !== undefined) {
+				const dataList = JSON.parse(JSON.stringify(data.getAllPosts));
+				dataList.map((element, index) => {
+					if (!element.date) dataList.splice(index, 1);
+					const labelList = [];
+					element.labels.map((label) => {
+						labelList.push(label.value);
+					});
+					element.labels = labelList;
+				});
+
+				setFilteredListings(dataList);
+				listings = dataList;
+			}
+		},
+		[ data ]
+	);
 
 	const [ filterRowRef, filterRowSize ] = useDimensions();
 	const filterRowHeight = filterRowSize.height;
