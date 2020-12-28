@@ -3,7 +3,7 @@ import Footer from 'rc-footer/es';
 import '../sass/main.scss';
 import 'rc-footer/assets/index.css'; // import 'rc-footer/asssets/index.less';
 
-const FooterComponent = () => {
+const FooterComponent = ({ color = '#6200ea' }) => {
 	return (
 		<Footer
 			columns={[
@@ -18,7 +18,7 @@ const FooterComponent = () => {
 			]}
 			bottom="Copyright (c) 2020"
 			theme="dark"
-			backgroundColor="#6200ea"
+			backgroundColor={color}
 		/>
 	);
 };

@@ -3,6 +3,7 @@ import '../sass/abstracts/header.css';
 import '../sass/abstracts/landing.scss';
 import '../sass/abstracts/_variables.scss';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 const LandingPage = () => {
 	return (
@@ -18,7 +19,7 @@ const LandingPage = () => {
 
 				<img src="./images/landingpage.png" alt="" />
 			</header>
-			<div className="">
+			<div className="" style={{ position: 'relative', bottom: '-1em' }}>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 					<path
 						fill="#63baba"
@@ -27,6 +28,7 @@ const LandingPage = () => {
 					/>
 				</svg>
 			</div>
+			<Footer color="#5ba4a4" />
 		</div>
 	);
 };
