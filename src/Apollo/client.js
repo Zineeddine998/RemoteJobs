@@ -1,7 +1,9 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
+const { REACT_APP_API_ENDPOINT } = process.env;
+
 const client = new ApolloClient({
-	uri   : 'http://localhost:4034/',
+	uri   : REACT_APP_API_ENDPOINT,
 	cache : new InMemoryCache()
 });
 
