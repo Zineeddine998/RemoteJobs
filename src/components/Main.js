@@ -5,6 +5,7 @@ import Button from './Button';
 import FilterButton from './FilterButton';
 import { useQuery } from '@apollo/client';
 import GET_ALL_POSTS from '../Apollo/sharedQueries';
+import '../sass/abstracts/header.css';
 
 let listings;
 const Main = () => {
@@ -105,7 +106,7 @@ const Main = () => {
 					</div>
 				</div>}
 			{
-				filteredListings ? filteredListings.map((listing) => {
+				filteredListings.length > 0 ? filteredListings.map((listing) => {
 					const arr = String(listing.labels).split(',');
 					return (
 						<Listing
@@ -124,7 +125,7 @@ const Main = () => {
 						/>
 					);
 				}) :
-				null}
+				<img src="./images/loading.gif" alt="Loading..." className="loader" />}
 		</main>
 	);
 };
