@@ -1,49 +1,50 @@
 {
-  "name": "job-listings-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "anime": "^0.1.2",
-    "axios": "^0.19.2",
-    "bootstrap": "^4.5.0",
-    "node-sass": "^4.14.1",
-    "rc-footer": "^0.6.3",
-    "react": "^16.13.1",
-    "react-anime": "^3.0.3",
-    "react-dom": "^16.13.1",
-    "react-fade-in": "^1.1.0",
-    "react-loading": "^2.0.3",
-    "react-loadingg": "^1.7.2",
-    "react-lottie": "^1.2.3",
-    "react-responsive": "^8.1.0",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "3.4.1",
-    "react-use-dimensions": "^1.2.1",
-    "request": "latest",
-    "xmlhttprequest": "^1.8.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "CI= react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "remotejobs",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@apollo/client": "^3.3.6",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.5.0",
+		"@testing-library/user-event": "^7.2.1",
+		"anime": "^0.1.2",
+		"axios": "^0.19.2",
+		"bootstrap": "^4.5.0",
+		"graphql": "^15.4.0",
+		"node-sass": "^4.14.1",
+		"rc-footer": "^0.6.3",
+		"react": "^16.13.1",
+		"react-anime": "^3.0.3",
+		"react-dom": "^16.13.1",
+		"react-fade-in": "^1.1.0",
+		"react-loading": "^2.0.3",
+		"react-loadingg": "^1.7.2",
+		"react-lottie": "^1.2.3",
+		"react-responsive": "^8.1.0",
+		"react-reveal": "^1.2.2",
+		"react-scripts": "3.4.1",
+		"react-use-dimensions": "^1.2.1",
+		"xmlhttprequest": "^1.8.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "CI= react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }
