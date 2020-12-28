@@ -12,14 +12,8 @@ const Listing = (props) => (
 					'listing'
 			}
 		>
-			{
-				props.company ? <Avatar logo={props.company} /> :
-				<img
-					className="listing__logo"
-					src="https://leanfrontiers.com/wp-content/uploads/2018/12/logo-placeholder-png.png"
-					style={{ borderRadius: '50%', backgroundColor: 'white' }}
-					alt=""
-				/>}
+			<Avatar logo={props.company} />
+
 			<div className="listing__content">
 				<div className="listing__top-row">
 					{
