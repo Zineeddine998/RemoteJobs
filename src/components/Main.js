@@ -53,6 +53,10 @@ const Main = () => {
 			setFilters(newFilters);
 			setFilteredListings(listings.filter((listing) => isMatchingFilters(listing, newFilters)));
 		}
+		window.scrollTo({
+			top      : 0,
+			behavior : 'smooth'
+		});
 	};
 	const handleRemoveFilter = (selection) => {
 		const newFilters = filters.filter((item) => item !== selection);
