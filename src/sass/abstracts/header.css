@@ -31,6 +31,6 @@
 }
 
 .loader {
-	text-align: center;
-	margin: 50%;
+	position: absolute;
+    left: 50%;
 }
