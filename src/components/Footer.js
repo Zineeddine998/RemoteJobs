@@ -8,9 +8,7 @@ const FooterComponent = ({ color = '#6200ea' }) => {
 		<Footer
 			columns={[
 				{
-					icon         : (
-						<img src="https://gw.alipayobjects.com/zos/rmsportal/XuVpGqBFxXplzvLjJBZB.svg" alt="" />
-					),
+					icon         : <img src="https://gw.alipayobjects.com/zos/rmsportal/XuVpGqBFxXplzvLjJBZB.svg" />,
 					title        : 'Remote Tech Jobs made with ❤️ by Zineeddine998',
 
 					openExternal : true
