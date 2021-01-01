@@ -11,7 +11,7 @@ const FooterComponent = ({ color = '#6200ea' }) => {
 					icon         : (
 						<img src="https://gw.alipayobjects.com/zos/rmsportal/XuVpGqBFxXplzvLjJBZB.svg" alt="" />
 					),
-					title        : 'Remote Tech Jobs made with ❤️',
+					title        : 'Remote Tech Jobs made with ❤️ by Zineeddine998',
 
 					openExternal : true
 				}
