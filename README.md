@@ -6,9 +6,6 @@ Find the website [here](https://hopeful-hermann-67b7c5.netlify.app/)
 
 
 
-## server is down for maintenance
- Find the link to backup [here](https://workheroes.herokuapp.com)
-
 ## Demo
 
 ![demo](demo/ezgif.com-video-to-gif.gif)
